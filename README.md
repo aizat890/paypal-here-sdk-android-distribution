@@ -6,7 +6,8 @@ Developers should use the PayPal Here SDK to get world-class payment processing 
 * **Low, transparent pricing:** US Merchants pay just 2.7% per transaction (or 3.5% + $0.15 for keyed in transactions), including cards like American Express, with no additional hidden/monthly costs.
 * **Safety & Security:** PayPal's solution uses encrypted swipers, such that card data is never made available to merchants or anyone else.
 * **Live customer support:** Whenever you need support, we’re available to help with our customer support team.
-[Visit our website](https://www.paypal.com/webapps/mpp/credit-card-reader) for more information about PayPal Here.
+[Visit our website](https://www
+.paypal.com/webapps/mpp/credit-card-reader) for more information about PayPal Here.
 * **Partner program:** Please [contact us](https://www.paypal-business.com/SDKdeveloperinterestregistration) for any partnership program questions or opportunities.
 
 > **Note:** From 1 July 2021 AEST, PayPal Here services (including both the credit card reader devices and the PayPal Here App) will no longer be available in Australia. This means you will not be able to accept payments through PayPal Here with the credit card reader device or via the PayPal Here App from that date. We have also ceased the sale of new PayPal Here credit card reader devices. If you are looking for a card payment solution, please see [here](https://www.paypal.com/merchantapps/appcenter/acceptpayments). If you are an existing PayPal Here customer and have any questions, please click [here](https://www.paypal.com/au/webapps/mpp/paypal-here-faq?locale.x=en_AU).
@@ -52,6 +53,6 @@ Housekeeping Items
 There are a few noteworthy items that should be called out. These include:
 * **Auth/Capture:** Please note that auth/capture processing is currently only available for the US and UK.
 * **Key-in:** Even though there's not an example in the sample app, please know that the SDK will support this payment method should you need to implement it.
-* **Server:** There will be some server-side work that needs to be done to handle the token management part of the integration. Standard Oauth2 is used for Merchant Onboarding and more information on this piece can be found [here](https://developer.paypal.com/docs/integration/paypal-here/merchant-onboarding/)
+* **Server:** There will be some server-side work that needs to be done to handle the token management part of the integration. Standard Oauth2 is used for Merchant Onboarding and more information on this piece can be found [here](https://dedeveloper.paypal.com/docs/integration/paypal-here/merchant-onboarding/)
 * **Marketing Toolkit:** Within this repo, you'll find downloadable marketing assets – from emails to banner ads – to help you quickly, and effectively, promote your app’s new payments functionality. 
 * **SDK 1.6:** All new integrations should use this v2 version of the PayPal Here SDK. Existing partners looking for prior versions of this SDK are recommended to update to this version, but can find version 1.6 [here](https://github.com/paypal/paypal-here-sdk-android-distribution/tree/release-1.6.10).
